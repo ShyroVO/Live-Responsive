@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+    font-size: 2rem;
+}
+
+#container {
+    width: 80%;
+    margin: 3rem auto auto;
+}
+
+#div1, #div2 {
+    padding: 3rem;
+    display: inline-block;
+    width: 47%;
+    margin-right: 2rem;
+}
+
+#div1 {
+    background: cornflowerblue;
+}
+
+#div2 {
+    background: chartreuse;
+}
+
+@media screen and (max-width: 950px) {
+
+    #container {
+        margin: 0;
+        width: 100%;
+    }
+
+    #div1, #div2 {
+        width: 100%;
+        display: block;
+    }
+
+}
